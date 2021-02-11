@@ -7,7 +7,8 @@ const Contact = () => {
             <div>
                 <p className="name">Mitchell Hamilton</p>
                 <div className="status">
-                    <p className="status-text status-online">Online</p>
+                    <span className="status-online"></span>
+                    <p className="status-text">Online</p>
                 </div>
             </div>
         </div >
