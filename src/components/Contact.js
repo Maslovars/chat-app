@@ -19,7 +19,7 @@ const Contact = ({ avatar, name, online }) => {
 Contact.propTypes = {
     avatar: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
-    status: PropTypes.string.isRequired,
+    online: PropTypes.bool
 };
 
 export default Contact;
